@@ -150,7 +150,7 @@ function AAPClassic.ZO.MakeZOList()
 				end
 			end)
 			AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]:SetBackdrop( { 
-				bgFile = "Interface\\Addons\\AAP-Classic\\Img\\bar.tga", 
+				bgFile = "Interface\\Addons\\AAP-TBC-Classic\\Img\\bar.tga",
 				edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
 				tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
 			});
@@ -163,7 +163,7 @@ function AAPClassic.ZO.MakeZOList()
 			AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]["Line"]:SetHeight(26)
 			AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]["Line"]:SetPoint("TOP",AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2],"TOP",0,13)
 			AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]["Line"]["L"] = AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]["Line"]:CreateTexture(nil, "OVERLAY")
-			AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]["Line"]["L"]:SetTexture("Interface\\Addons\\AAP-Classic\\Img\\bar.tga")
+			AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]["Line"]["L"]:SetTexture("Interface\\Addons\\AAP-TBC-Classic\\Img\\bar.tga")
 			AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]["Line"]["L"]:SetAllPoints()
 			AAPClassic.ZO.OrderFrame["Line"..CLi]["Frame"..CLi2]["Line"]:Hide()
 
@@ -510,7 +510,7 @@ AAPClassic.ZO.QuestListEventFrame:RegisterEvent ("ADDON_LOADED")
 AAPClassic.ZO.QuestListEventFrame:SetScript("OnEvent", function(self, event, ...)
 	if (event=="ADDON_LOADED") then
 		local arg1, arg2, arg3, arg4, arg5 = ...;
-		if (arg1 == "AAP-Classic") then
+		if (arg1 == "AAP-TBC-Classic") then
 			--AAPClassic.ZO.MakeZOList()
 			--AAPClassic.ZO.MakeDB()
 			--AAPClassic.ZO.PrintOrder()

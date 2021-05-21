@@ -251,7 +251,7 @@ AAPClassic.QL.QuestListEventFrame:RegisterEvent("ADDON_LOADED")
 AAPClassic.QL.QuestListEventFrame:SetScript("OnEvent", function(self, event, ...)
     if (event == "ADDON_LOADED") then
         local arg1, arg2, arg3, arg4, arg5 = ...;
-        if (arg1 == "AAP-Classic") then
+        if (arg1 == "AAP-TBC-Classic") then
             AAPClassic.MakeQuestList()
         end
     end

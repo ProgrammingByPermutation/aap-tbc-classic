@@ -1,6 +1,6 @@
 ## Interface: 11302
 
-## Title: Azeroth Auto Pilot <Classic> 1-60
+## Title: Azeroth Auto Pilot <TBC Classic> 1-60
 ## Notes: AAP Classic
 ## Author: Zyrrael
 ## Version: 0.13

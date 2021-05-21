@@ -1061,7 +1061,7 @@ function AAPClassic.CheckNamePlate()
             AAP_frame.AAPIcon:SetWidth(25)
             AAP_frame.AAPIcon:SetHeight(25)
             local t = AAP_frame.AAPIcon:CreateTexture(nil, "HIGH")
-            t:SetTexture("Interface\\Addons\\AAP-Classic\\Img\\pickup.tga")
+            t:SetTexture("Interface\\Addons\\AAP-TBC-Classic\\Img\\pickup.tga")
             t:SetAllPoints(AAP_frame.AAPIcon)
             AAP_frame.AAPIcon.texture = t
             AAP_frame.AAPIcon:SetPoint("BOTTOM", AAP_frame, "TOP", 0, 0)
@@ -1119,7 +1119,7 @@ AAPClassic.QH.EventFrame:RegisterEvent("PLAYER_TARGET_CHANGED")
 AAPClassic.QH.EventFrame:SetScript("OnEvent", function(self, event, ...)
     if (event == "ADDON_LOADED") then
         local arg1, arg2, arg3, arg4, arg5 = ...;
-        if (arg1 == "AAP-Classic") then
+        if (arg1 == "AAP-TBC-Classic") then
             AAPClassic.QH.BookingList.UpdateQuestList = 1
             AAPClassic.QH.BookingList.UpdateMapId = 1
             AAPClassic.QH.FuncLoopNumber = 1

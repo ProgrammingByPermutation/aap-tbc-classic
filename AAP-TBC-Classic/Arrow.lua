@@ -22,7 +22,7 @@ AAPClassic.ArrowFrame:SetPoint("TOPLEFT", AAPClassic.ArrowFrameM, "TOPLEFT", 0, 
 AAPClassic.ArrowFrame:EnableMouse(true)
 AAPClassic.ArrowFrame:SetMovable(true)
 AAPClassic.ArrowFrame.arrow = AAPClassic.ArrowFrame:CreateTexture(nil, "OVERLAY")
-AAPClassic.ArrowFrame.arrow:SetTexture("Interface\\Addons\\AAP-Classic\\Img\\Arrow.blp")
+AAPClassic.ArrowFrame.arrow:SetTexture("Interface\\Addons\\AAP-TBC-Classic\\Img\\Arrow.blp")
 AAPClassic.ArrowFrame.arrow:SetAllPoints()
 AAPClassic.ArrowFrame.distance = AAPClassic.ArrowFrame:CreateFontString("ARTWORK", "ChatFontNormal")
 AAPClassic.ArrowFrame.distance:SetFontObject("GameFontNormalSmall")
